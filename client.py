@@ -8,7 +8,7 @@ n = 0
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Kirim permintaan koneksi
-sock.connect( ("127.0.0.1", 9998) )
+sock.connect( ("127.0.0.1", 1935) )
 
 def getfilesize(filename):
     return os.stat(filename).st_size
