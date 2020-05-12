@@ -5,7 +5,7 @@ import os
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Bind
-sock.bind( ("0.0.0.0", 9998) )
+sock.bind( ("0.0.0.0", 1935) )
 
 # Listen sebanyak jumlah backlog
 sock.listen(10)
